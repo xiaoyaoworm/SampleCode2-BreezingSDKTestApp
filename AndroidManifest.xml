@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.breezing.module"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="co.breezing.main.Metabolism"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="co.breezing.main.DeviceList"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="co.breezing.module.one.qrcode.thirdlib.capture.CaptureActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.CAPTURE"
+                    android:clearTaskOnLaunch="true"
+                    android:configChanges="orientation|keyboardHidden"
+                    android:screenOrientation="landscape"
+                    android:stateNotNeeded="true"
+                    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                    android:windowSoftInputMode="stateAlwaysHidden" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="co.breezing.module.four.guidance.Guidance"
+            android:label="@string/title_activity_guidance" >
+        </activity>
+        <activity
+            android:name="co.breezing.main.Main"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="co.breezing.main.Results"
+            android:label="@string/title_activity_results"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="co.breezing.main.FinalResults"
+            android:label="@string/title_activity_final_results"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="co.breezing.main.FirstActivity"
+            android:label="@string/title_activity_first" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="co.breezing.main.TrainingActivity"
+            android:label="@string/title_activity_training" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+</manifest>

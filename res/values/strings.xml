@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Breezing!</string>
+    <string name="app_name">Breezing</string>
+    <string name="mm">MMM</string>
+    <string name="dd">DD</string>
+    <string name="ft">ft</string>
+    <string name="in">in</string>
+    <string name="gender_prompt">Gender</string>
+    <string name="ethnicity_prompt">Ethnicity</string>
+    <string name="activity_prompt">Activity level</string>
+    <string name="exercise_prompt">Select Exercise Intensity</string>
+    <string name="activity_level">   Activity\n   level</string>
+    <string name="Reset">Reset</string>
+    <string name="Exit">Sign Out</string>
+    <string name="ExitApp">Exit</string>
+    <string name="Settings">Settings</string>
+    <string name="select">Select Device</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="advise_text">You are now 16 lbs. above your target weight. You have increased your metabolism and maintanined your weight with respect to your last record. You should watch out your calorie intake more carefully. To lose weight, you are encouraged to follow Breezing calories intake and exercise recommendations, and Breezing dietary and exercise tips (see information in the  App settings)</string>
+    <string name="less">&lt;&lt; Less</string>
+    <string name="zxing_url">http://code.google.com/p/zxing</string>
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="button_ok">OK</string>
+    <!-- <string name="msg_default_status">Place the QR Code inside the rectangle to Scan it.</string> -->
+    <string name="msg_default_status">请用方框对准QR码进行扫描</string>
+    <string name="msg_default_format">Format</string>
+    <string name="msg_default_type">Type</string>
+    <string name="msg_default_meta">Metadata</string>
+    <string name="msg_default_time">Time</string>
+    <string name="preferences_actions_title">When a barcode is found\u2026</string>
+    <string name="preferences_bulk_mode_summary">Scan and save many barcodes continuously</string>
+    <string name="preferences_bulk_mode_title">Bulk scan mode</string>
+    <string name="preferences_copy_to_clipboard_title">Copy to clipboard</string>
+    <string name="preferences_custom_product_search_summary" formatted="false">Substitutions: %s = contents, %f = format, %t = type</string>
+    <string name="preferences_custom_product_search_title">Custom search URL</string>
+    <string name="preferences_decode_1D_title">1D barcodes</string>
+    <string name="preferences_decode_Data_Matrix_title">Data Matrix</string>
+    <string name="preferences_decode_QR_title">QR Codes</string>
+    <string name="preferences_front_light_summary">Improves scanning in low light on some phones, but may cause glare. Does not work on all phones.</string>
+    <string name="preferences_front_light_title">Use front light</string>
+    <string name="preferences_general_title">General settings</string>
+    <string name="preferences_name">Settings</string>
+    <string name="preferences_play_beep_title">Beep</string>
+    <string name="preferences_remember_duplicates_summary">Store multiple scans of the same barcode in History</string>
+    <string name="preferences_remember_duplicates_title">Remember duplicates</string>
+    <string name="preferences_reverse_image_summary">Enable on devices with a front camera only</string>
+    <string name="preferences_reverse_image_title">Reversed camera image</string>
+    <string name="preferences_result_title">Result settings</string>
+    <string name="preferences_scanning_title">When scanning for barcodes, decode\u2026</string>
+    <string name="preferences_search_country">Search country</string>
+    <string name="preferences_supplemental_summary">Try to retrieve more information about the barcode contents</string>
+    <string name="preferences_supplemental_title">Retrieve more info</string>
+    <string name="preferences_vibrate_title">Vibrate</string>
+    <string name="title_activity_guidance">Guidance</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_metabolism">Metabolism</string>
+    <string name="title_activity_results">Results</string>
+    <string name="title_activity_final_results">FinalResults</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="title_activity_training">TrainingActivity</string>
+
+</resources>
